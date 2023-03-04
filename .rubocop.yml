@@ -1,0 +1,15 @@
+AllCops:
+  NewCops: enable
+  Exclude:
+    - "vendor/**/*"
+  TargetRubyVersion: 3.1.2
+  SuggestExtensions: false
+
+Layout:
+  Enabled: false
+
+Metrics:
+  Enabled: false
+
+Style:
+  Enabled: true
